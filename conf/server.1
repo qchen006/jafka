@@ -28,7 +28,7 @@ brokerid=1
 ############################# Socket Server Settings #############################
 
 # The port the socket server listens on
-port=9092
+port=9091
 
 # The number of processor threads the socket server uses for receiving and answering requests. 
 # Defaults to the number of cores on the machine
@@ -42,7 +42,7 @@ log.dir=/tmp/jafka-data-1
 
 # The number of logical partitions per topic per server. More partitions allow greater parallelism
 # for consumption, but also mean more files.
-num.partitions=1
+num.partitions=3
 
 # Overrides for for the default given by num.partitions on a per-topic basis
 #topic.partition.count.map=topic1:3, topic2:4

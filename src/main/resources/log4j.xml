@@ -10,7 +10,7 @@
 	</appender>
 	
 	<appender name="dailyRollingFile" class="org.apache.log4j.DailyRollingFileAppender">       
-        <param name="File" value="/tmp/logs/jafka" />         
+        <param name="File" value="/tmp/logs/jafka.log" />         
         <param name="DatePattern" value="'.'yyyy-MM-dd"/>   
         <layout class="org.apache.log4j.PatternLayout">       
          <param name="ConversionPattern"         
